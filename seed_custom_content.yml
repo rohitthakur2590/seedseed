@@ -1,6 +1,6 @@
 ---
 - name: Seeding Custom Playbooks
-  hosts: builder
+  hosts: localhost
   gather_facts: false
   environment:
     CONTROLLER_USERNAME: "{{ lookup('env', 'CONTROLLER_USERNAME') }}"
